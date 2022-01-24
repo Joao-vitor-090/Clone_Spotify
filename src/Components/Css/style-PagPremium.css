@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.PagPremium{
+    height: 385px;
+    background-color:rgb(29, 117, 222);;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3em;
+    ;
+}
+.bloco{
+    padding:1em;
+}
+h1{
+    line-height: 1.2;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    font-size: calc(23px + 4 * ((100vw - 320px) / 160));
+}
+.preco{
+    font-size: 25px;
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+
+    font-weight: 400;
+}
+.botao1{
+    background-color: rgba(14, 13, 13, 0.842);
+    color: white;
+    height: 52px;
+    width:187px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao1:hover{
+
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    width: 188px;
+    height: 53px;
+}
+
+.botao2{
+    background-color: transparent;
+    color: white;
+    height: 52px;
+    width:187px;
+    border-radius: 25px;
+    border: 3px solid white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao2:hover{
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    width: 188px;
+    height: 53px;
+}
+.descricao{
+    font-size: 13px;
+    width: 650px;
+    color: white;
+    
+}
