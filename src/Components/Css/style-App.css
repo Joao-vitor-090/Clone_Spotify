@@ -3,10 +3,21 @@
     margin:0;
 }
 .App{ 
-    width: 100%;
+ 
+    background-color: #efefef;
 }
 .BlocoPreco{
     height: 250px;
     width: 200px;
     background-color: red;
+}
+.Pagamentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em;
+}
+.Conteudo{
+    margin: 5em;
 }

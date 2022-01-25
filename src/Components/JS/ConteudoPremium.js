@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../Css/style-ConteudoPremium.css"
 
 class ConteudoPremium extends Component{
     render(){
@@ -89,52 +90,54 @@ class ConteudoPremium extends Component{
         return(
             <div className="main">
                 <div className="BotoesInfos">
-                    <span>1 mês grátis ao assinar</span>
+                    <span className="FalseButton">1 mês grátis ao assinar</span>
                     <span>Pagamento único disponível</span>
                 </div>
-                 <h1>{this.props.titulo}</h1>
+                 <h3>{this.props.titulo}</h3>
                  <p>{this.props.preco}</p>
-                 <div className="linha"></div>
+                 <div className="line"></div>
                  <ul>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha1}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha2}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha3}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha4}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha5}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha6}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha7}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha8}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha9}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha10}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha11}
                      </tr>
-                     <tr>
+                     <tr className="linhas">
                      {this.props.linha12}
                      </tr>
                  </ul>
-                 <button>COMEÇAR</button>
+                 <button className="botao">COMEÇAR</button>
+
                  <p><a href="https://www.spotify.com/br/legal/premium-promotional-offer-terms/">Sujeito a Termos e Condições.</a> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+
             </div>//main
         );
     }
