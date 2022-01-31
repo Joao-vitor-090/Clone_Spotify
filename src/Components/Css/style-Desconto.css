@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Desconto-footer{
+    width: 718.188px;
+    height: 100px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3em 0 3em;
+    margin: 0 16px;
+}
+.texto1{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.texto2{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

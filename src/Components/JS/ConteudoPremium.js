@@ -91,10 +91,12 @@ class ConteudoPremium extends Component{
             <div className="main">
                 <div className="BotoesInfos">
                     <span className="FalseButton">1 mês grátis ao assinar</span>
-                    <span>Pagamento único disponível</span>
+                    <span className="FalseButtonTwo">Pagamento único disponível</span>
                 </div>
                  <h3>{this.props.titulo}</h3>
+
                  <p>{this.props.preco}</p>
+                 
                  <div className="line"></div>
                  <ul>
                      <tr className="linhas">
@@ -134,9 +136,13 @@ class ConteudoPremium extends Component{
                      {this.props.linha12}
                      </tr>
                  </ul>
-                 <button className="botao">COMEÇAR</button>
 
-                 <p><a href="https://www.spotify.com/br/legal/premium-promotional-offer-terms/">Sujeito a Termos e Condições.</a> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+                 <div className="footer">
+                     <button className="botao">COMEÇAR</button>
+                     <p className="TextFooter">
+                         <a href="https://www.spotify.com/br/legal/premium-promotional-offer-terms/" className="TextFooter">Sujeito a Termos e Condições.</a> O mês grátis não está disponível para usuários que já experimentaram o Premium.
+                                     </p>
+                 </div>
 
             </div>//main
         );
