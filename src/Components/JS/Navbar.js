@@ -31,19 +31,6 @@ function closeNav() {
                     <a href="#">Inscreva-se</a>
                     <a href="#">Entrar</a>
             </span>
-
-            <div id="mySidenav"className="sidenav">
-                <a href="javascript:void(0)" className="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">Premium</a>
-                    <a href="#">Suporte</a>
-                    <a href="#">Baixar</a>
-                    <a href="#">Inscreva-se</a>
-                    <a href="#">Entrar</a>
-            </div>
-            <div className="main">
-            <span  onclick="openNav()" className="funcaojs">&#9776; open</span>
-
-</div>
            </div>
            
         );

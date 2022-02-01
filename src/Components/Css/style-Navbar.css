@@ -39,25 +39,6 @@
     /*Estilo*/
     height: 80px;
 }
-
-.sidenav {
-    display: none;
-  }
-  
-  .sidenav a {
-    display: none;
-  }
-  
-  .sidenav .closebtn {
-    display: none;
-  }
-  
-  .main {
-    display: none;
-  }
-  .funcaojs{
-      display: none;
-  }
 @media only screen and (max-width: 990px) {
         .Navbar{
             height: 63px;
@@ -70,55 +51,4 @@
         .links{
             display: none;
         }
-        .sidenav {
-            display: inline-block;
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-          }
-          
-          .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-          }
-          
-          .sidenav a:hover {
-            color: #f1f1f1;
-          }
-          
-          .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-            display: inline-block;
-          }
-          
-         
-          .funcaojs{
-            display: inline;
-            filter: invert(100%);
-            width: 32px;
-            height: 32px;
-            cursor: pointer;
-            background: #f1f1f1;
-            color: #f1f1f1;
-          }
-          
-          @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-          }
-}
+      }
