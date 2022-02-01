@@ -13,8 +13,7 @@
     margin: 5em;
 }
 .Container{
-
-    max-height: 1235px;
+   
     display: flex;
     padding: 0px 5em 0px 5em ;
 }
@@ -25,4 +24,12 @@
 }
 .blockFooter{
     color: white;
+}
+@media only screen and (max-width: 990px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
 }
