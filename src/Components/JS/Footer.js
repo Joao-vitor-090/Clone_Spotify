@@ -34,12 +34,10 @@ class Footer extends Component {
                         </div>
                         <div className='Coluna3_tabela'>
 
-                            <p className='linhas_footer_titulo'>COMUNIDADE</p>
-                            <p  className='linhas_footer'>Para Artistas</p>
-                            <p  className='linhas_footer'>Desenvolvedores</p>
-                            <p  className='linhas_footer'>Publicidade</p>
-                            <p  className='linhas_footer'>Investodores</p>
-                            <p  className='linhas_footer'>Fornecedores</p>
+                            <p className='linhas_footer_titulo'>LINKS ÚTEIS</p>
+                            <p  className='linhas_footer'>Suporte</p>
+                            <p  className='linhas_footer'>Player da Web</p>
+                            <p  className='linhas_footer'>Aplicativo móvel grátis</p>
 
                         </div>
 
