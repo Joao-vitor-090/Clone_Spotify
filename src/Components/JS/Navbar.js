@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Logo from '../img/logo.png';
 import "../Css/style-Navbar.css";
+import menu from"../img/menu.png";
 class Navbar extends Component{
     render(){
         return(
@@ -12,8 +13,9 @@ class Navbar extends Component{
                     <img src = {Logo} className="Logo" />
 
                 </div>
+                
                 <span className="links">
-
+                <img src = {menu} className="menuNavbar" />
                     <a href="#">Premium</a>
                     <a href="#">Suporte</a>
                     <a href="#">Baixar</a>
@@ -23,7 +25,8 @@ class Navbar extends Component{
                     <a href="#">Inscreva-se</a>
                     <a href="#">Entrar</a>
 
-                </span>    
+                </span>
+                
            </div>
            
         );

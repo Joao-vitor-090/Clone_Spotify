@@ -5,21 +5,23 @@
     -webkit-tap-highlight-color: transparent;
 }
 .PagPremium{
-    height: 385px;
     background-color:rgb(29, 117, 222);;
     color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-left: 3em;
-    ;
+    padding-bottom: 1em;
 }
 .bloco{
     padding:1em;
 }
+.blocoLetra1{
+    padding:1em;
+}
 h1{
     line-height: 1.2;
-    margin: 0px;
+    margin: 1.5em 0 0 0;
     padding: 0px;
     font-weight: 900;
     max-width: 100%;
@@ -77,4 +79,33 @@ h1{
     width: 650px;
     color: white;
     
+}
+@media only screen and (max-width: 990px){
+    .PagPremium{
+        padding: 2em 0 1em 0;
+    }
+    h1{
+        margin: 0;
+    }
+    .blocoLetra{
+        padding: 1em;
+    }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botao1{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .botao1:hover{
+        width: 101%;
+    }
+    .botao2{
+        width: 100%;
+    }
+    .botao2:hover{
+        width: 101%;
+    }
 }

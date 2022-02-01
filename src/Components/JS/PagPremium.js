@@ -5,10 +5,10 @@ class PagPremium extends Component{
     render(){
         return(
             <div className="PagPremium">
-                <div className="bloco">
+                <div className="blocoLetra">
                     <h1>Aproveite 1 mês grátis de premium</h1>
                 </div>
-                <div className="bloco">
+                <div className="blocoLetra">
                 <p className="preco">Depois,pague somente 19,90 Cancele quando quiser.</p>
                 </div>
                 <div className="bloco">
@@ -19,7 +19,7 @@ class PagPremium extends Component{
                         VER PLANOS
                         </button>
                 </div>
-                    <div className="bloco">
+                    <div className="blocoLetra">
                         <p className="descricao"><a href="#" className="descricao">Sujetio a termos e Condições.</a> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
                     </div>
             </div>
