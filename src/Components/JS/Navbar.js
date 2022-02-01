@@ -4,6 +4,13 @@ import "../Css/style-Navbar.css";
 import menu from"../img/menu.png";
 class Navbar extends Component{
     render(){
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
         return(
             
             <div className="Navbar">
@@ -15,7 +22,6 @@ class Navbar extends Component{
                 </div>
                 
                 <span className="links">
-                <img src = {menu} className="menuNavbar" />
                     <a href="#">Premium</a>
                     <a href="#">Suporte</a>
                     <a href="#">Baixar</a>
@@ -24,9 +30,20 @@ class Navbar extends Component{
 
                     <a href="#">Inscreva-se</a>
                     <a href="#">Entrar</a>
+            </span>
 
-                </span>
-                
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="main">
+            <span onclick="openNav()" className="funcaojs"><img src = {menu} className="Logo" /></span>
+</div>
+
+
            </div>
            
         );
