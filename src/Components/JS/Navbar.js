@@ -1,16 +1,8 @@
 import React, { Component } from "react";
 import Logo from '../img/logo.png';
 import "../Css/style-Navbar.css";
-import menu from"../img/menu.png";
 class Navbar extends Component{
     render(){
-        function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
         return(
             
             <div className="Navbar">
