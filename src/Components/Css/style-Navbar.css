@@ -52,7 +52,7 @@
     display: none;
   }
   
-  #main {
+  .main {
     display: none;
   }
   .funcaojs{
@@ -71,6 +71,7 @@
             display: none;
         }
         .sidenav {
+            display: inline-block;
             height: 100%;
             width: 0;
             position: fixed;
@@ -102,14 +103,18 @@
             right: 25px;
             font-size: 36px;
             margin-left: 50px;
+            display: inline-block;
           }
           
-          #main {
-            transition: margin-left .5s;
-            padding: 16px;
-          }
+         
           .funcaojs{
-              display: flex;
+            display: inline;
+            filter: invert(100%);
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+            background: #f1f1f1;
+            color: #f1f1f1;
           }
           
           @media screen and (max-height: 450px) {
